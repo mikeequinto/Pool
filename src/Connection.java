@@ -35,7 +35,7 @@ public class Connection {
         // Oracle :"jdbc:oracle:thin:@localhost:1521:NomInstance"
         // hsql : jdbc:hsqldb:file:testdb
         // jdbc:hsqldb:mem:mymemdb
-        return getConnection("jdbc:mysql://localhost:3306/prog4_2018", "root", "root");
+        return getConnection("jdbc:mysql://localhost:3306/prog4_2018", "root", "");
     }
 
 
