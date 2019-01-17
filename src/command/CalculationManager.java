@@ -58,7 +58,7 @@ public class CalculationManager {
 
         enabled = true;
         tAjout.start();
-        t1.start();
+        t1.start(); 
 
         Thread.sleep(10000);
         enabled = false;
